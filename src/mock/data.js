@@ -29,11 +29,11 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Weight Lifting Journal',
+    info: `Weight Lifting Journal is a simple React app for tracking workouts.  This project was designed as an exercise in state management.  It makes use of Redux for the sake of practice, despite its small size.`,
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/weight-lifting-journal-11/Front-end', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -46,12 +46,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'connect_our_kids.png',
+    title: 'Connect Our Kids',
+    info: `Connect Our Kids is a suite of tools designed to help social workers find family connections and possible homes for children about to enter the foster care system.  I worked on this project for two months adding file and photo upload capabilities to the React-Native mobile app.`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://apps.apple.com/us/app/connect-our-kids/id1471038972',
+    repo: 'https://github.com/connect-our-kids/mobile-app', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'nathan.saygers@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,23 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/Nathan_Saygers',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nathan-saygers/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/nathan-saygers',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
