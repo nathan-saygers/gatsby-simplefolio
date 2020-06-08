@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'connect_our_kids.png',
+    title: 'Connect Our Kids',
+    info: `Connect Our Kids is a suite of tools designed to help social workers find family connections and possible homes for children about to enter the foster care system.  I worked on this project for two months adding file and photo upload capabilities to the React-Native mobile app.`,
+    info2: '',
+    url: 'https://apps.apple.com/us/app/connect-our-kids/id1471038972',
+    repo: 'https://github.com/connect-our-kids/mobile-app', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'project.jpg',
     title: 'Weight Lifting Journal',
     info: `Weight Lifting Journal is a simple React app for tracking workouts.  This project was designed as an exercise in state management.  It makes use of Redux for the sake of practice, despite its small size.`,
@@ -43,15 +52,6 @@ export const projectsData = [
     info2: '',
     url: 'https://dvst3-be.herokuapp.com/',
     repo: 'https://github.com/DVST3/dvst3-back-end', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'connect_our_kids.png',
-    title: 'Connect Our Kids',
-    info: `Connect Our Kids is a suite of tools designed to help social workers find family connections and possible homes for children about to enter the foster care system.  I worked on this project for two months adding file and photo upload capabilities to the React-Native mobile app.`,
-    info2: '',
-    url: 'https://apps.apple.com/us/app/connect-our-kids/id1471038972',
-    repo: 'https://github.com/connect-our-kids/mobile-app', // if no repo, the button will not show up
   },
 ];
 
