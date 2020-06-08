@@ -1,5 +1,4 @@
 import uuidv1 from 'uuid/v1';
-import dvst3img from '../../external_docs/delfi-de-la-rua-KLBvT4BVdVo-unsplash.jpg';
 
 // HEAD DATA
 export const headData = {
@@ -38,7 +37,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: dvst3img,
+    img: 'family_walking.jpg',
     title: 'DVST3 Database',
     info: `DVST3 Database is my contribution to a project designed to help victims of domestic abuse calculate the costs of relocation.  This basic backend uses Express with a PostgreSQL database.`,
     info2: '',
