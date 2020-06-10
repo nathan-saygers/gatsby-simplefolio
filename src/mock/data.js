@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'connect_our_kids.png',
     title: 'Connect Our Kids',
     info: `Connect Our Kids is a suite of tools designed to help social workers find family connections and possible homes for children about to enter the foster care system.  I worked on this project for two months adding file and photo upload capabilities to the React-Native mobile app.`,
-    info2: '',
+    info2: `Built with: React Native`,
     url: 'https://apps.apple.com/us/app/connect-our-kids/id1471038972',
     repo: 'https://github.com/connect-our-kids/mobile-app', // if no repo, the button will not show up
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'dumbbells.jpeg',
     title: 'Weight Lifting Journal',
     info: `Weight Lifting Journal is a simple React app for tracking workouts.  This project was designed as an exercise in state management.  It makes use of Redux for the sake of practice, despite its small size.`,
-    info2: '',
+    info2: 'Built with: React',
     url: 'https://weight-lifting-journal-fe.netlify.app/',
     repo: 'https://github.com/nathan-saygers/Weight-Lifting-Journal-Front-end', // if no repo, the button will not show up
   },
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'family_walking.jpg',
     title: 'DVST3 Database',
     info: `DVST3 Database is my contribution to a project designed to help victims of domestic abuse calculate the costs of relocation.  This basic backend uses Express with a PostgreSQL database.`,
-    info2: '',
+    info2: 'Built with: Express',
     url: 'https://dvst3-be.herokuapp.com/',
     repo: 'https://github.com/DVST3/dvst3-back-end', // if no repo, the button will not show up
   },
