@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'dumbbells.jpeg',
     title: 'Weight Lifting Journal',
     info: `Weight Lifting Journal is a simple React app for tracking workouts.  This project was designed as an exercise in state management.  It makes use of Redux for the sake of practice, despite its small size.`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/weight-lifting-journal-11/Front-end', // if no repo, the button will not show up
+    url: 'https://weight-lifting-journal-fe.netlify.app/',
+    repo: 'https://github.com/nathan-saygers/Weight-Lifting-Journal-Front-end', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
