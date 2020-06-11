@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'nathan_profile1.jpg',
   paragraphOne: `I'm a resident of Portland, Oregon continuously committed to self-improvement and learning.  I am currently looking for my first software development position.`,
   paragraphTwo: `My coding journey began with Lambda School's Web Development program.  My work so far has focused on React, and NodeJS.`,
   paragraphThree: `When I'm not coding, I enjoy rock climbing, reading, and playing music.`,
