@@ -4,7 +4,7 @@ import uuidv1 from 'uuid/v1';
 export const headData = {
   title: 'Nathan Saygers', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Portfolio Site - Nathan Saygers', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: `I'm a resident of Portland, Oregon continuously committed to self-improvement and learning.  I am currently looking for my first software development position.`,
   paragraphTwo: `My coding journey began with Lambda School's Web Development program.  My work so far has focused on React, and NodeJS.`,
   paragraphThree: `When I'm not coding, I enjoy rock climbing, reading, and playing music.`,
-  resume: `https://docs.google.com/document/d/18Fl064n5bvmNsC4pbqj4CIxs9JovZqAQHPdQbg_Vjrs/edit?usp=sharing`, // if no resume, the button will not show up
+  resume: `https://drive.google.com/file/d/1hvpbKS5wtRPtG_khfC5yW9dZnAKkFgAk/view?usp=sharing`, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
